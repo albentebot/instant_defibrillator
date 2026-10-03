@@ -1,0 +1,1 @@
+IncludeScript("instant_defibrillator")
