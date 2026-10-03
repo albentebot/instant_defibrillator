@@ -2,7 +2,7 @@
 {
     "addonSteamAppID" "550"
     "addonversion" "0.1.0"
-    "addontitle" "Survivor Recovery Boost Lite"
+    "addontitle" "Instant Defibrillator"
     "addonauthor" "team_imu"
-    "addonDescription" "Host-side coop/realism health regeneration and faster medkits, defibrillators and revives for humans and bots. Standalone VScript; experimental."
+    "addonDescription" "Zeroes out defibrillator use duration and revive delay. Standalone VScript, host-side only. Experimental."
 }
