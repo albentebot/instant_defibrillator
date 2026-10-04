@@ -6,8 +6,7 @@
 
 | 功能 | 默认值 |
 | --- | --- |
-| 除颤器使用读条 | 0.2 秒 |
-| 除颤器复活延迟 | 0.0 秒 |
+| 除颤器使用读条 | 0.1 秒 |
 
 极简实现：启动时设置两个游戏内建变量，没有循环计时器、配置文件或聊天命令。
 
@@ -25,15 +24,13 @@
 
 ## 实现说明
 
-启动时执行两条 `Convars.SetValue`：
+启动时执行一条 `Convars.SetValue`：
 
 ```text
-defibrillator_use_duration         = 0.2
-defibrillator_return_to_life_time  = 0.0
+defibrillator_use_duration         = 0.1
 ```
 
 - `defibrillator_use_duration`：手持除颤器按E后的读条时长，原值2秒。
-- `defibrillator_return_to_life_time`：读条完成后，倒地者回到站立状态的延迟，原值3秒。
 
 除颤器仍须正常拾取和消耗，不影响其他治疗行为（急救包、扶人、回血）。只在服务端有意义——单机和本地服务器自动生效；加入官方或他人服务器时，仅本机安装无效。
 
