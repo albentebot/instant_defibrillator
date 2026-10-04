@@ -1,4 +1,4 @@
-# Instant Defibrillator 1.0.0
+# Instant Defibrillator
 
 -*本Mod高度使用AI辅助*-
 
